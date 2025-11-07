@@ -72,6 +72,32 @@ header {
     position: relative;
 }
 
+header::after {
+    content: '';
+    position: absolute;
+    top: -53px;
+    right: 0px;
+    width: 180px; /* Ajusta el tamaño según necesites */
+    height: 180px; /* Ajusta el tamaño según necesites */
+    background-image: url("images/logo_mlh.png"); /* Cambia por la ruta de tu imagen */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+    pointer-events: none; /* Evita que interfiera con clics */
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(39, 45, 88, 0.5) 0%, rgba(52, 63, 125, 0.85) 100%);
+    pointer-events: none;
+}
+
 header::before {
     content: '';
     position: absolute;
@@ -1109,8 +1135,8 @@ img {
 }
 
 .contact .container-6 img {
-    width: 32px;
-    height: 32px;
+    width: 54px;
+    height: 48px;
     transition: all 0.3s ease;
     filter: brightness(0.8);
 }
@@ -1121,7 +1147,7 @@ img {
 }
 
 .container-6 {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
 
