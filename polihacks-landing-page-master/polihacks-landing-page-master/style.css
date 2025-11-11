@@ -76,10 +76,10 @@ header::after {
     content: '';
     position: absolute;
     top: -53px;
-    right: 0px;
-    width: 180px; /* Ajusta el tamaño según necesites */
-    height: 180px; /* Ajusta el tamaño según necesites */
-    background-image: url("images/logo_mlh.png"); /* Cambia por la ruta de tu imagen */
+    right: -15px;
+    width: 190px; /* Ajusta el tamaño según necesites */
+    height: 190px; /* Ajusta el tamaño según necesites */
+    background-image: url("images/mlh_season.svg"); /* Cambia por la ruta de tu imagen */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
